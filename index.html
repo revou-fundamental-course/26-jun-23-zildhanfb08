@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>E-Groceries</title>
+</head>
+
+<body>
+    
+    <header id="header" class="header-nav" alt="Logo RevoU">
+        <a href="#header" target="_blank">
+            <img src="img/revou.png" alt="Logo RevoU">
+        </a>
+        <div class="nav">
+            <a href="#home" target="_blank">Home</a>
+            <a href="#ourpackage" target="_blank">Our Package</a>
+            <a href="#callus" target="_blank">Call Us</a>
+        </div>
+    </header>
+
+    <section class="header-section" id="home">
+        <h1>Top Rated E-Groceries Shop in 
+            <br>Indonesian</h1>
+        <p id="caption">Every Day with Best Ingredients</p>
+    </section>
+
+    <main>
+
+        <section class="main-content">
+
+            <article class="article1">
+                <div id="banner">
+                    <img class="img-slideshow" src="img/supermarket.jpg" alt="Grocery Store">
+                    <img class="img-slideshow" src="img/groceries.jpg" alt="Grocery Store">
+                    <img class="img-slideshow" src="img/market1.jpg" alt="Grocery Store">
+                    <br>
+                    <script src="js/banner.js"></script>
+                </div>
+
+                <div class="review">
+                    <p id="quote1">"Setiap hari beli sayur dan buah yang fresh disini"</p>
+                
+                    <img src="img/testi.jpg" id="testi1" alt="Testimoni">
+                    
+                    <h4 id="testiTitle">Florence Hughes</h4 >
+                    <p id="quote2">Ibu Rumah Tangga, 28</p>
+                </div>
+                
+                <p id="shortBorder"> </p>
+                
+                <div class="benefit-list">
+                    <h4 id="benefit">Mengapa harus berbelanja dengan E-Groceries?</h4>
+                    
+                    <p class="benefitList">
+                        <img id="benefitimg" src="img/number1.png">Dapatkan produk yang fresh langsung dari petani lokal pilihan.</p>
+                    <p class="benefitList">
+                        <img id="benefitimg" src="img/number2.png">Produk kualitas impor dan bersertifikat BPOM RI.</p>
+                    <p class="benefitList">
+                        <img id="benefitimg" src="img/number3.png">Banyak promo menarik dengan harga terjangkau.</p>
+                    <p class="benefitList">
+                        <img id="benefitimg" src="img/number4.png">Pengiriman cepat dan tersedia 24 jam.</p>
+                    <p class="benefitList">
+                        <img id="benefitimg" src="img/number5.png">Dikirim instan oleh kurir terlatih sesuai dengan SOP.</p>
+                    <p class="benefitList">
+                        <img id="benefitimg" src="img/number6.png">Barang dipilih oleh <i>Personal Shopper</i> Profesional.</p>
+                    <p class="benefitList">
+                        <img id="benefitimg" src="img/number7.png">Tidak perlu datang ke pasar/toko swalayan terdekat.</p>
+                    <p class="benefitList">
+                        <img id="benefitimg" src="img/number8.png">Beragam metode pembayaran yang aman.</p>
+                    <p class="benefitList">
+                        <img id="benefitimg" src="img/number9.png">Semua yang kamu perlukan tersedia dari handphone-mu.</p>
+                    <br>
+                </div>
+            </article>
+
+            <section  class="form">
+                <h3 id="titleSubtitle">Contact Us</h3>
+                
+                <p id="caption1">Sales akan menghubungi Anda dalam kurun waktu 1x24 jam setelah data kami terima.</p>
+                
+                <form class="message-form" name="message-form" onsubmit="return validateForm()">
+                    <label for="name">Your Name:</label><br>    
+                    <input placeholder="First and last name" name="name" type="text">
+                    
+                    <label for="email">Email Address:</label><br>
+                    <input placeholder="example@gmail.com" name="email" type="email">
+
+                    <label for="phone">Phone Number:</label><br>
+                    <input placeholder="+62 812-3456-7890" name="phone" type="text">
+                    
+                    <label for="interested">What are you interested in?</label><br>
+                    <input placeholder="Select option" name="interested" list="interested">
+                        <datalist>
+                            <option value="Fresh Fruit">
+                            <option value="Fresh Vegetable">
+                            <option value="Kitchen Ingredient">
+                            <option value="Kitchen Set">
+                        </datalist>
+
+                    <label for="messages">Messages:</label><br>
+                    <textarea placeholder="Your messages here" name="messages"></textarea>
+                                        
+                    <input id="submit" type="submit" value="SEND">                    
+                </form>
+
+                <script src="js/formvalidate1.js"></script>
+
+                <!-- <div class="form-output">
+                    <h2>Your Data</h2>
+                    <p>Name: <span id="sender-name"></span></p>
+                    <p>Email Address: <span id="sender-email"></span></p>
+                    <p>Phone Number: <span id="sender-phone"></span></p>
+                    <p>Interested: <span id="sender-interested"></span></p>
+                    <p>Messages: <span id="sender-messages"></span></p>
+                </div> -->
+            </section>
+        </section>
+
+        <section id="ourpackage" class="ourPackage">
+            <h1>Our Package</h1>
+        </section>
+
+        <section>
+            <section class="package1">    
+                <div class="div1">
+                    <h2>Fresh Vegetable</h2>
+                    <img id="img1" src="img/veggie1.jpg" alt="Fresh Vegetables">
+                    <p>"Sayuran segar pilihan yang dipanen langsung dari sumber pertanian terbaik."</p>
+                </div>
+                
+                <div class="div1">
+                    <h2>Fresh Fruits</h2>
+                    <img id="img2" src="img/fruit1.jpg" alt="Fresh Fruits">
+                    <p>"Buah dengan kualitas terbaik dari pertani lokal dan impor dengan harga yang menarik."</p>
+                </div>
+                
+                <div class="div1">
+                    <h2>Instant Delivery</h2>
+                    <img id="img3" src="img/delivery1.png" alt="Instant Delivery">
+                    <p>"Dikirim instan oleh kurir terlatih dengan SOP untuk menjaga kondisi belanja kamu."</p>
+                </div>
+            </section>
+            
+            <div id="shortBorder2"></div>
+            
+            <section class="package2">
+                <div class="div2">
+                    <h2>Kitchen Ingredient</h2>
+                    <img id="img4" src="img/kitcheningre.jpg" alt="Kitchen Ingredient">
+                    <p>"Bumbu dapur yang lengkap untuk penuhi semua keperluan memasak kamu."</p>
+                </div>
+            
+                <div class="div2">
+                    <h2>Kitchen Set</h2>
+                    <img id="img5" src="img/kitchenset.jpg" alt="Kitchen Set">
+                    <p>"Segala jenis peralatan masak elegan yang dapat membantu kamu memasak."</p>
+                </div>
+            
+                <div class="div2">
+                    <h2>Bundling Set</h2>
+                    <img id="img6" src="img/bundling.png" alt="Bundling Set">
+                    <p>"Bingung mau masak apa? Sudah tersedia paket yang memudahkan memasak di dapurmu."</p>
+                </div>
+            </section>
+        </section>
+
+        <section id="callus" class="closing">
+            <h1>Dapatkan kebutuhan rumah yang sudah terjamin kualitasnya secara online!</h1>
+            <p>E-Groceries adalah portal layanan belanja kebutuhan rumah online yang menyediakan produ berkualitas dari para petani lokal maupun impor. Sekarang tidak perlu lagi repot-repot mengantri, pergi ke toko yang padat, dan dilanda kemacetan. Cukup dengan handphone yang kamu punya sudah bisa berbelanja secara online dengan harga yang terjangkau!</p>
+            <a href="#form" id="submit2" target="_self">PESAN SEKARANG</a>
+        </section>
+    </main>
+
+    <footer>
+        <img class="imgfooter" src="img/revou.png" alt="RevoU">
+        <div id="footer1">
+            <span>Terms of Service</span>
+            <span id="word">Privacy Policy</span>
+        </div>
+        <div id="footer2">
+            <span>© 2023</span>
+            <span id="word">RevoU</span>
+        </div>
+    </footer>
+
+</body>
+</html>
