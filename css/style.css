@@ -12,6 +12,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
     border-bottom: 2px solid rgb(200,200,200);
     padding: 10px 30px 10px 10px;
     flex-direction: row;
@@ -93,6 +94,7 @@ header {
     text-align: center;
     font-style: italic;
     font-size: 18px;
+    margin: auto;
     margin-bottom:60px;
 }
 
@@ -213,8 +215,8 @@ textarea {
 }
 
 #shortBorder {
-    width: 200px;
-    margin-left: 290px;
+    width: 25%;
+    margin:auto;
     margin-bottom: 50px;
     align-self: center;
     justify-content: center;
@@ -364,8 +366,8 @@ textarea {
 }
 
 #shortBorder2 {
-    width:200px;
-    margin-left: 43%;
+    width:15%;
+    margin:auto;
     border-bottom: 5px solid rgb(200,200,200);
     border-radius: 8px;
     text-align: center;
