@@ -463,19 +463,3 @@ footer > #footer2 {
 #word {
     margin-left: 15px;
 }
-
-@media only screen and (max-width:600px) {
-    .header-nav {
-        flex-direction: column;
-        display: flex;
-        justify-content: space-between;
-    }
-    .nav {
-        flex-direction: column;
-        width: 100%;
-    }
-    .logo {
-        align-items: start;
-        margin-bottom: 30px;
-    }
-}
