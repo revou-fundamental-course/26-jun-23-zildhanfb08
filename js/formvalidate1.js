@@ -1,4 +1,4 @@
-// Validation and Alert
+// Form Input - Validation and Alert
 
 submit.addEventListener("submit", function (event) {
     event.preventDefault()

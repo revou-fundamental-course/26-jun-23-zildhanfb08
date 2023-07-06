@@ -36,6 +36,7 @@ header {
 
 .header-nav > .nav > a:hover {
     background-color: rgb(180,180,180);
+    text-decoration: underline;
     color: black;
     font-weight: bold;
 }

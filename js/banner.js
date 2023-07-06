@@ -21,4 +21,4 @@ imgList[slideIndex - 1].style.display = "block";
 
 setInterval(() => {
 plusDivs(1)
-},1000)
+},3000)
